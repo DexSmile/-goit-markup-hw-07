@@ -1,0 +1,106 @@
+@media screen and (min-width: 768px) { 
+    .container {
+        max-width: 767px;
+    }
+    .section {
+        padding: 96px 0;
+    }
+
+/*-----------------Header--------------------*/
+
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-open-burger {
+        display: none;
+    }
+    .header-navigation {
+        display: flex;
+        gap: 120px;
+    }
+    .header-address {
+        padding-left: 120px;
+    }
+    .header-list-address {
+        
+    }
+    .header-mail {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        color: var(--accent-color);
+        transition: color var(--transition-duration) var(--trsition-function);
+    }
+    .header-tel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        color: var(--accent-color);
+        transition: color var(--transition-duration) var(--trsition-function);
+    }
+
+
+/*-----------------Header--------------------*/
+
+/*-----------------Hero--------------------*/
+.hero {
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 112px 0;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    width: 496px;
+    margin: 0 auto 40px;
+}
+/*-----------------Hero--------------------*/
+
+/*-----------------About--------------------*/
+.about-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+.about-item {
+    width: 356px;
+}
+.about-item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-title-color);
+    margin-bottom: var(--margine-about-feature-footer-portfolio-title);
+}
+.about-item-list {
+    font-weight: 500;
+    line-height: 24px;
+}
+/*-----------------About--------------------*/
+
+/*-----------------Srevices--------------------*/
+
+.services {
+    display: none;
+}
+.services-feature-title {
+    display: none;
+}
+.services-item {
+    display: none;
+}
+.services-portfolio-item-img {
+    display: none;
+}
+
+/*-----------------Srevices--------------------*/
+
+}
