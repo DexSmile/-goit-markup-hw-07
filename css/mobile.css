@@ -100,6 +100,8 @@
     text-transform: capitalize;
     color: var(--secondary-title-color);
     transition: color var(--transition-duration) var(--trsition-function);
+    background-color: none;
+    box-shadow: none;
 }
 .color-mobile {
     color: #404BBF;
@@ -117,11 +119,13 @@
 
 }
 .mobile-menu-contact-tel {
-    font-weight: 595;
+    font-weight: 590;
     font-size: 36px;
     line-height: 40px;
     text-transform: capitalize;
     color: #4D5AE5;
+    background-color: none;
+    box-shadow: none;
 }
 .mobile-menu-contact-mail {
     font-weight: 500;
@@ -129,6 +133,8 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: none;
+    box-shadow: none;
 }
 /*-----------------Contacts--------------------*/
 
