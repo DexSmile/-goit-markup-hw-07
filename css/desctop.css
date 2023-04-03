@@ -87,6 +87,31 @@
 
 /*-----------------About--------------------*/
 
+/*-----------------Srevices--------------------*/
+
+
+
+/*-----------------Srevices--------------------*/
 
 
 }
+.services {
+    display: block;
+    padding-bottom: var(--section-pading);
+}
+.services-feature-title {
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-title-color);
+    margin-bottom: var(--margine-services-feature-title-portfolio-btn-list);
+}
+.services-item {
+    display: flex;
+    gap: var(--card-set-gap);
+    
+}
+.services-portfolio-item-img {
+    flex-basis: calc((100% - 48px) / 3);
+}   
