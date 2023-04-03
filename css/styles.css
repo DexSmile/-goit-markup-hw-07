@@ -180,6 +180,7 @@ body {
     box-shadow: none;
 }
 .header-tel {
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
