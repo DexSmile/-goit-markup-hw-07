@@ -1,6 +1,12 @@
 @media screen and (min-width: 1200px) {
 .container {
-    max-width: 1158px;
+    max-width: 1199px;
+}
+.mobile-menu {
+    display: none;
+}
+.mobile-open-burger {
+    display: none;
 }
 .section {
     padding: var(--section-pading) 0;
@@ -28,7 +34,7 @@
 /*-----------------Hero--------------------*/
 .hero {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1200px;
     padding: 188px 0;
 }
 .hero-title {
@@ -49,7 +55,7 @@
     gap: var(--card-set-gap);
 }
 .about-item {
-    width: 264px;
+    
 }
 .about-item::before {
     content: '';
@@ -88,12 +94,6 @@
 /*-----------------About--------------------*/
 
 /*-----------------Srevices--------------------*/
-
-
-
-/*-----------------Srevices--------------------*/
-
-
 }
 .services {
     display: block;
@@ -115,3 +115,4 @@
 .services-portfolio-item-img {
     flex-basis: calc((100% - 48px) / 3);
 }   
+/*-----------------Srevices--------------------*/

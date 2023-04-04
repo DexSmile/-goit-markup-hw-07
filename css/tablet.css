@@ -2,18 +2,20 @@
     .container {
         max-width: 767px;
     }
-    .section {
-        padding: 96px 0;
-    }
-
-/*-----------------Header--------------------*/
-
     .mobile-menu {
         display: none;
     }
     .mobile-open-burger {
         display: none;
     }
+}
+    @media screen and (max-width: 1199px) {
+    .section {
+        padding: 96px 0;
+    }
+
+/*-----------------Header--------------------*/
+
     .header-navigation {
         display: flex;
         gap: 120px;
@@ -42,7 +44,6 @@
         color: var(--accent-color);
         transition: color var(--transition-duration) var(--trsition-function);
     }
-
 
 /*-----------------Header--------------------*/
 
