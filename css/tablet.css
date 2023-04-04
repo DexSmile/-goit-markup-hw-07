@@ -1,3 +1,4 @@
+/*--------------------------------Min-Width TABLET-------------------------------------*/
 @media screen and (min-width: 768px) { 
     .container {
         max-width: 767px;
@@ -8,23 +9,28 @@
     .mobile-open-burger {
         display: none;
     }
+    .about-item::before {
+        display: none;
+    }
+    .header-list-address {
+        display: block;
+    }
 }
-    @media screen and (max-width: 1199px) {
+/*--------------------------------Min-Width TABLET-------------------------------------*/
+   
+/*--------------------------------Max-Width TABLET-------------------------------------*/
+@media screen and (max-width: 1199px) {
     .section {
         padding: 96px 0;
     }
 
 /*-----------------Header--------------------*/
-
     .header-navigation {
         display: flex;
         gap: 120px;
     }
     .header-address {
         padding-left: 120px;
-    }
-    .header-list-address {
-        
     }
     .header-mail {
         font-style: normal;
@@ -44,7 +50,6 @@
         color: var(--accent-color);
         transition: color var(--transition-duration) var(--trsition-function);
     }
-
 /*-----------------Header--------------------*/
 
 /*-----------------Hero--------------------*/
@@ -88,7 +93,6 @@
 /*-----------------About--------------------*/
 
 /*-----------------Srevices--------------------*/
-
 .services {
     display: none;
 }
@@ -101,7 +105,24 @@
 .services-portfolio-item-img {
     display: none;
 }
-
+}
 /*-----------------Srevices--------------------*/
 
+/*-----------------Feature--------------------*/
+.feature {
+    max-width: 1440px;
 }
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    column-gap: 24px;
+}
+/*-----------------Feature--------------------*/
+
+/*-----------------Section Customers-------------------*/
+.customers {
+    padding: 96px 0;
+}
+/*-----------------Section Customers-------------------*/
+/*----------------------------------Max-Width TABLET-----------------------------------*/
