@@ -22,8 +22,7 @@
     display: flex;
 }
 .feature-list {
-        flex-wrap: nowrap;
-        
+    flex-wrap: nowrap;
 }
 }
 /*--------------------------------Min-Width DESCTOP-------------------------------------*/
@@ -70,12 +69,14 @@
     top: 264px; */
 }
 /*-----------------Hero--------------------*/
-
+.modal {
+    width: 392px
+}
 /*-----------------About--------------------*/
 .about-list {
     display: block;
 }
-.about-item {
+.about-item:not(:last-child) {
     margin-bottom: 72px;
 }
 .about-item::before {
@@ -109,7 +110,7 @@
 .services-portfolio-item-img {
     display: none;
 }
-}
+
 /*-----------------Srevices--------------------*/
 
 /*-----------------Feature--------------------*/
@@ -141,4 +142,47 @@
     padding: 96px 0;
 }
 /*-----------------Section Customers-------------------*/
+
+/*-----------------Footer--------------------*/
+.footer {
+    padding: 96px 0;
+}
+.page-footer-container {
+    display: flex;
+    flex-direction: column;
+}
+.footer-block {
+    margin-bottom: 72px;
+}
+.logo-footer-center {
+    display: flex;
+    justify-content: center;
+}
+/* .footer-media-sbscribe {
+    display: block;
+} */
+.footer-icon {
+    margin-bottom: 72px;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+.footer-subscribe-form {
+    width: 100%;
+    align-items: center;
+}
+.footer-subscribe-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-subscribe-form-input {
+    max-width: 398px;
+}
+.footer-subscribe-btn {
+    width: 165px;
+}
+/*-----------------Footer--------------------*/
 /*--------------------------------Max-Width MOBILE-------------------------------------*/
+}

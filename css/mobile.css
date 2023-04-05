@@ -1,5 +1,5 @@
 /*-----------------Mobile Menu--------------------*/
-.mobile-menu {
+.mobile-menu { 
     position: fixed;
     top: 0;
     left: 0;
@@ -126,6 +126,9 @@
 
 /*--------------------------------Min-Width MOBILE-------------------------------------*/
 @media screen and (min-width: 320px) {
+    .container {
+        max-width: 479px;
+    }
     .mobile-menu-contact-tel {
         font-weight: 600;
         font-size: 29px;
@@ -138,6 +141,9 @@
         display: flex;
         gap: 40px;
         padding-top: 40px;
+    }
+    .feature-list {
+        justify-content: center;
     }
 }
 @media screen and (min-width: 380px) {
@@ -152,17 +158,12 @@
     .container {
         max-width: 428px;
     }
-    .feature-list {
-        justify-content: center;
-        gap: 72px;
-    }
 }
 /*--------------------------------Min-Width MOBILE-------------------------------------*/
 
 /*--------------------------------Max-Width DESCTOP-------------------------------------*/
 @media screen and (max-width: 1440px) {
     /*-----------------Header--------------------*/
-    
     .page-header-container {
         justify-content: space-between;
     }
@@ -234,7 +235,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--accent-color);
-    } 
+     
     /*-----------------About--------------------*/
     
     /*-----------------Srevices--------------------*/
@@ -267,8 +268,11 @@
     }
     .feature-list {
         display: flex;
-        row-gap: var(--card-set-gap);
+        gap: var(--card-set-gap);
     }
+   .feature-card-content-item {
+        width: 264px;
+   }
     /*-----------------Feature--------------------*/
 
     /*-----------------Section Customers-------------------*/
@@ -276,4 +280,29 @@
     padding: 120px 0;
     } 
     /*-----------------Section Customers-------------------*/
+
+    /*-----------------Footer--------------------*/
+    .footer {
+        padding: 96px 0;
+    }
+    .page-footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-media-sbscribe {
+        display: flex;
+        gap: 80px;
+    }
+    .footer-subscribe-inline {
+        display: flex;
+        gap: 24px;
+    }
+    .footer-subscribe-form-input {
+        width: 264px;
+    }
+    .footer-subscribe-btn {
+        
+    }
+/*-----------------Footer--------------------*/
     /*--------------------------------Max-Width DESCTOP-------------------------------------*/
+}
