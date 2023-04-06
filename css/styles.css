@@ -87,6 +87,55 @@ body {
     overflow: hidden;
 }
 
+/*-----------------Adaptive-IMG--------------------*/
+/*-----------------HERO-IMG--------------------*/
+@media screen and (min-width: 480px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_mobile-min.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+       screen and (min-resolution: 192dpi) and (max-width: 767px),
+       screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_mobile_x2-min.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_tablet-min.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1199px),
+       screen and (min-resolution: 192dpi) and (max-width: 1199px),
+       screen and (min-resolution: 2dppx) and (max-width: 1199px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_tablet_x2-min.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_desctop-min.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1440px),
+       screen and (min-resolution: 192dpi) and (max-width: 1440px),
+       screen and (min-resolution: 2dppx) and (max-width: 1440px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/adaptive-img/people-office_desctop_x2-min.jpg);
+    }
+}
+/*-----------------HERO-IMG--------------------*/
+/*-----------------Adaptive-IMG--------------------*/
+
 /*-----------------Header--------------------*/
 .header {
     margin: 0 auto;
@@ -451,7 +500,8 @@ body {
 .feature-list {
 }
 .feature-item {
-    flex-basis: calc((100% - 72px) / 4);
+     flex-basis: calc((100% - 112px) / 4); 
+                /*calc((100% - 72px) / 4); */
 }
 .feature-title-2 {
     font-size: 20px;

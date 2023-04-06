@@ -15,6 +15,9 @@
 .about-item-title {
     margin: var(--margine-about-feature-footer-portfolio-title) 0;
 }
+.about-item-list {
+    max-width: 264px;
+}
 .about-item::before {
     display: block;
 }
@@ -28,19 +31,19 @@
 /*--------------------------------Min-Width DESCTOP-------------------------------------*/
 
 /*--------------------------------Max-Width MOBILE-------------------------------------*/
-/*-----------------Header--------------------*/
 @media screen and (max-width: 767px) {
+/*-----------------Header--------------------*/
     .section {
         padding: 96px 0;
+    }
+    .header {
+        padding: 24px 0;
     }
     .header-list {
         display: none;
     }
     .header-list-address {
         display: none;
-    }
-    .header {
-        padding: 24px 0;
     }
     .page-header-container {
         justify-content: space-between;
@@ -68,10 +71,14 @@
     left: 130px;
     top: 264px; */
 }
-/*-----------------Hero--------------------*/
+
+/*-----------------Modal Window--------------------*/
 .modal {
     width: 392px
 }
+/*-----------------Modal Window--------------------*/
+/*-----------------Hero--------------------*/
+
 /*-----------------About--------------------*/
 .about-list {
     display: block;
@@ -183,6 +190,6 @@
 .footer-subscribe-btn {
     width: 165px;
 }
+}
 /*-----------------Footer--------------------*/
 /*--------------------------------Max-Width MOBILE-------------------------------------*/
-}
