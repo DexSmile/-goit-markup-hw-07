@@ -30,11 +30,12 @@
         gap: 120px;
     }
     .header-address {
-        padding-left: 120px;
+        margin-left: 120px;
     }
+    .header-list-address li:nth-child(2) {
+        margin-top: 4px;
+      }
     .header-mail {
-        font-style: normal;
-        font-weight: 400;
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.04em;
@@ -42,8 +43,6 @@
         transition: color var(--transition-duration) var(--trsition-function);
     }
     .header-tel {
-        font-style: normal;
-        font-weight: 400;
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.04em;
@@ -128,43 +127,39 @@
 
 /*-----------------Footer--------------------*/
 .footer {
-    padding: 100px 0;
+    padding: 96px 0;
 }
 .page-footer-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    row-gap: 72px;
+    column-gap: 24px;
+    flex-wrap: wrap;
 }
 .footer-block {
-    margin-bottom: 72px;
+    margin-left: 108px;
 }
 .logo-footer-center {
-    display: flex;
-    justify-content: center;
+    
 }
 .footer-icon {
-    margin-bottom: 72px;
 }
 .footer-list {
-    display: flex;
-    justify-content: center;
+    
+    
 }
-.footer-media-sbscribe {
-    display: block;
-    text-align: center;
-}
+/* .footer-media-sbscribe {
+   
+} */
 .footer-subscribe-form {
-    width: 100%;
-    align-items: center;
+    margin-left: 108px;
 }
 .footer-subscribe-inline {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 24px;
 }
 .footer-subscribe-form-input {
-    max-width: 398px;
+    width: 264px;
+    
 }
 .footer-subscribe-btn {
     width: 165px;
